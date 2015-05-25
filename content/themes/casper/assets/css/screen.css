@@ -2059,7 +2059,12 @@ body:not(.post-template) .post-title {
     }
 }
 
-
+.search-box{
+	width:250px;
+	float:right;
+	font-size:1.8rem;
+	margin-right:10px;
+}
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
