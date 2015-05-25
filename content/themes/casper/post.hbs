@@ -5,7 +5,7 @@
 
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
-Proud
+
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
@@ -16,6 +16,7 @@ Proud
 </header>
 
 <main class="content" role="main">
+    <h1 class="page-title"><a href="{{@blog.url}}">ProudMonkey</a></h1>
     <article class="{{post_class}}">
 
         <header class="post-header">
