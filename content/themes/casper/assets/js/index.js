@@ -13,10 +13,6 @@
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
-	$("#search").ghostHunter({
-              results: "#search-results"
-        }); 
-
         $(".scroll-down").arctic_scroll();
 
         $(".menu-button, .nav-cover, .nav-close").on("click", function(e){
